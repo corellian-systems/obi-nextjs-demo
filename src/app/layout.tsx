@@ -32,7 +32,8 @@ export default function RootLayout({
         {children}
         <ObiLoader config={{
           apiKey: process.env.NEXT_PUBLIC_API_KEY,
-          position: "bottom-right"
+          position: "bottom-right",
+          isActive: false,
         }} />
       </body>
     </html>
